@@ -3,7 +3,7 @@ const PROMPT = require('readline-sync');
 
 let continueResponse;
 let currentRating;
-let Ratings;
+let processRatings;
 const MAX_RATING = 5;
 
 function main() {
