@@ -3,6 +3,7 @@ const PROMPT = require('readline-sync');
 
 let continueResponse;
 let currentRating;
+let Ratings;
 const MAX_RATING = 5;
 
 function main() {
@@ -40,7 +41,7 @@ function setCurrentRating() {
     }
 }
 
-function processPaymentCoupons() {
+function processRatings() {
     while (currentRating <= MAX_RATING) {
         if (currentGrade == 0) {
             console.log(`\n\tThe average rating for this movie is: ${currentRating}`);
