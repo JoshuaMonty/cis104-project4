@@ -31,7 +31,6 @@ function calculateMovieAverage() {
 }
 
 function showMovies() {
-	console.log(SPACER);
 	for (let i = 0; i < movies.length; i++) {
 		console.log("\t" + String(i + 1) + ". " + movies[i].title + " (" + movies[i].average + " stars)");
 	}
