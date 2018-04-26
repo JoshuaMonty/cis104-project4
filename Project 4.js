@@ -11,11 +11,11 @@ function main() {
 	setSortOrder();
 	while (true) {
 		calculateMovieAverage();
-        showMovies();
+        	showMovies();
 		sortMovies();
 		showMainMenu();
-        addNewMovie();
-        addMovieRating();
+        	addNewMovie();
+        	addMovieRating();
 		askForMenuOption();
 		console.log("\n\n");
 	}
@@ -89,6 +89,5 @@ function askForMenuOption() {
 			}
 			addMovieRating(Number(selection) - 1);
 			break;
-
 	}
 }
