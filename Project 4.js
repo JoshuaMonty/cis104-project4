@@ -39,9 +39,9 @@ function showMovies() {
 function sortMovies() {
 	movies.sort((a, b) => {
 		if (sortOrder == "high to low") {
-			return a.average < b.average; // High to low
+			return a.average < b.average;
 		} else {
-			return a.average > b.average; // Low to high
+			return a.average > b.average;
 		}
 	});
 }
